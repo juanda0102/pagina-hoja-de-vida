@@ -3,7 +3,7 @@
 header {
 	width:100%; 
 	overflow:hidden; 
-	background:#e8e8e7;
+	background:#4303dc;
 	margin-bottom:20px;
 }
 
@@ -30,7 +30,7 @@ header nav {
 header nav a {
     font-family:monospace;
 	display:inline-block;
-	color:black;
+	color:white;
 	text-decoration:none;
 	padding:40px 50px;
 	line-height:normal;
@@ -42,7 +42,8 @@ header nav a {
 }
 
 header nav a:hover {
-	background:#981914;
+	background:#9cdc03;
+	color: black;
     font-size:40px;
 	border-radius:50px;
 }
@@ -65,7 +66,7 @@ header nav a:hover {
 div.D1{
 	overflow:hidden; 
 	position: absolute;
-	background-color: #e63e11;
+	background-color: #ff3b02;
 	width: 40%;
 	height: auto;
 	display: flex;
@@ -109,28 +110,30 @@ h1{
 	width:100%; 
 	height: 15vw;
 	overflow:hidden; 
-	background:#160812;
+	background:#9cdc03;
 	margin-top:20px;
+	font-weight: bold;
 }
 
 #direccion{
 	width:25vw; 
 	height: 10vw;
 	float: left;
-	color: #fff;
+	color: #4303dc;
 	margin-top: 2vw;
 	margin-left: 2vw;
 	margin-right: 2vw;
 	text-align: center;
 	font-family: "Segoe UI";
 	font-size: 1.2vw;
+	
 }
 
 #contacto{
 	width:20vw; 
 	height: 10vw;
 	float: left;
-	color: #fff;
+	color: #4303dc;
 	margin-top: 2vw;
 	margin-left: 2vw;
 	margin-right: 2vw;
@@ -143,7 +146,7 @@ h1{
 	width:20vw; 
 	height: 10vw;
 	float: left;
-	color: #fff;
+	color:#4303dc;
 	margin-top: 2vw;
 	margin-left: 2vw;
 	margin-right: 2vw;
@@ -186,7 +189,7 @@ h1{
 /* ESTILO DE TABLA ESTUDIOS */
 
 #tablaestudio{
-	background-color: #e63e11;  
+	background-color: black;  
 	background-size: cover;
 	display: flex;
     flex-direction: column;
@@ -205,7 +208,7 @@ table td {
     border: solid black 0.3VW;
     width: 100VW;
     height: 1VW;
-	background-color: #ffb67d;
+	background-color: #ff9a59;
 	font-size: 1VW;
 }
 
@@ -217,23 +220,23 @@ table tr {
 }
 
 #Cabeza{
-    background-color:#590000;
+    background-color:#ff3b02;
     font-weight: 1000;
 	color: #fff;
 	font-size: 1VW;
 }
 #CabezaMarcas{
-    background-color:#f47741;
-	color: #590000;
+    background-color:#ff7a3b;
+	color: black;
     font-weight: 900;
 	font-size: 1VW;
 }
 
 #CabezaT{
-    background-color:#a7230d;
+    background-color:#ff541a;
     font-weight: 900;
 	font-size: 1VW;
-	color: #ffb67d;
+	color: #fff
 }
 
 #logestudio{
@@ -311,7 +314,7 @@ table tr {
 	display: block;
 	width: 10px;
 	height: 10px;
-	background: #a09e9e;
+	background: #ffffff;
 	border-radius: 50%;
 	border: 1px solid #160812;
 	cursor: pointer;
@@ -319,5 +322,4 @@ table tr {
 
 .slider input[type="radio"]:checked ~ label {
 	background: #160812;
-	border: 1px solid #e63e11;
 }
